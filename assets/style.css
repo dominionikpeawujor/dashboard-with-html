@@ -63,6 +63,25 @@ body {
   color: var(--color-dark);
 }
 
+
+/* =================== SCROLL BAR STYLING ===================  */
+::-webkit-scrollbar {
+  width: .6rem;
+  border-radius: .5rem;
+  background-color: var(--color-dark);
+}
+
+
+::-webkit-scrollbar-thumb{
+  background-color: var(--color-dark-variant);
+  border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-primary);
+}
+
+
 .container {
   display: grid;
   width: 96%;
